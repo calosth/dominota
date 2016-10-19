@@ -19,7 +19,7 @@ public class Partida {
     	this.nombrePartida = new SimpleStringProperty(null);
         this.finalizada = new SimpleBooleanProperty(false);
         this.fecha = new SimpleObjectProperty<LocalDate>(LocalDate.now());
-        this.puntajeMaximo = 100;
+        this.puntajeMaximo = 200;
     }
 
     public Partida(String nombrePartida, boolean finalizada, LocalDate date, int puntajeMaximo) {
