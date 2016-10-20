@@ -47,7 +47,7 @@ public class MainApp extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 
-		DB.addJugador("pupu");
+		DB.addJugador("New Player");
 		DB.imprimirJugador();
 		this.primaryStage = primaryStage;
 		this.primaryStage.setTitle("Dominota");
